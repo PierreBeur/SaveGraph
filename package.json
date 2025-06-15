@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "build": "vue-tsc -b && vite build"
   },
   "keywords": [],
   "author": {
@@ -24,11 +23,14 @@
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "^2.0.0",
-    "@vitejs/plugin-vue": "^5.2.3",
+    "@types/chrome": "^0.0.313",
+    "@types/node": "^22.13.14",
+    "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
-    "typescript": "~5.8.3",
-    "vite": "^6.3.5",
-    "vue-tsc": "^2.2.8"
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-plugin-zip-pack": "^1.2.4",
+    "vue-tsc": "^2.2.4"
   },
   "packageManager": "pnpm@10.12.1"
 }
