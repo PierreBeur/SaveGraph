@@ -1,0 +1,21 @@
+{
+  "name": "save-graph",
+  "version": "0.1.0",
+  "description": "A tool for efficiently searching and classifying bookmarks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Pierre Beurtheret",
+    "email": "pierrebeur0@gmail.com"
+  },
+  "private": true,
+  "repository": "github:PierreBeur/SaveGraph",
+  "bugs": {
+    "url": "https://github.com/PierreBeur/SaveGraph/issues"
+  },
+  "license": "GPL-3.0-only",
+  "packageManager": "pnpm@10.12.1"
+}
