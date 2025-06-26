@@ -18,4 +18,7 @@ export default defineManifest({
     js: ['src/content/main.ts'],
     matches: ['https://*/*'],
   }],
+  permissions: [
+    'bookmarks',
+  ],
 })
