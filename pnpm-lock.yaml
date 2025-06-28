@@ -21,6 +21,9 @@ importers:
       '@crxjs/vite-plugin':
         specifier: ^2.0.0
         version: 2.0.0
+      '@mdi/js':
+        specifier: ^7.4.47
+        version: 7.4.47
       '@types/chrome':
         specifier: ^0.0.313
         version: 0.0.313
@@ -220,6 +223,9 @@ packages:
 
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
+
+  '@mdi/js@7.4.47':
+    resolution: {integrity: sha512-KPnNOtm5i2pMabqZxpUz7iQf+mfrYZyKCZ8QNz85czgEt7cuHcGorWfdzUMWYA0SD+a6Hn4FmJ+YhzzzjkTZrQ==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -958,6 +964,8 @@ snapshots:
     optional: true
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
+
+  '@mdi/js@7.4.47': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
