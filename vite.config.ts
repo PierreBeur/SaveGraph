@@ -26,4 +26,11 @@ export default defineConfig({
       ],
     },
   },
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'src/pages/index.html',
+      },
+    },
+  },
 })
