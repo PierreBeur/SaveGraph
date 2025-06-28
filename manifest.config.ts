@@ -20,5 +20,13 @@ export default defineManifest({
   }],
   permissions: [
     'bookmarks',
+    'favicon',
+  ],
+  web_accessible_resources: [
+    {
+      resources: ['_favicon/*'],
+      matches: ['<all_urls>'],
+      use_dynamic_url: true,
+    },
   ],
 })
