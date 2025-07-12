@@ -21,6 +21,7 @@ export default defineManifest({
   permissions: [
     'bookmarks',
     'favicon',
+    'identity',
   ],
   web_accessible_resources: [
     {
